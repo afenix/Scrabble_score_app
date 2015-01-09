@@ -1,13 +1,30 @@
 .container {
-  background-image: url("img/wood.jpg");
-  height: 40vh;
+  background-image: url("img/scrabble_me.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 50vh;
+  border: 2px solid;
+  border-radius: 25px;
+  margin: 0px auto;
+  width:400px;
 }
 
 body {
   font-family: Courier New;
-  color: yellow;
+  color: white;
+  height: 200;
+}
+
+h4 {
+  color: white;
+  width: 100px;
+  height: 100px;
+}
+
+p {
+  margin: 0 auto;
 }
 
 .form-group {
-  width: 200px;
+  width: 350px;
 }
