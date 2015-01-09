@@ -25,4 +25,12 @@ describe('String#scrabble') do
   it("multiple letter word will result in the sum of hash of all letter values") do
     expect("quincunx".scrabble()).to(eq(26))
   end
-end  
+
+  it("will downcase any uppercase letters present in input string") do
+    expect("Hello".scrabble()).to(eq(8))
+  end
+
+  it("will remove any extraneous white space entered in input string") do
+    expect("H ello ".scrabble()).to(eq(8))
+  end
+end
